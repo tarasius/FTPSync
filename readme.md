@@ -4,6 +4,8 @@ If FTP server supports hashes or other file verification methods, they will be u
 Otherwise size and modified timestamps are compared.
 Filenames match is case insensitive.
 
+Source code is written in Delphi XE.
+
 Parameters are:
 * 1 - local folder path
 * 2 - FTP URL with port and remote folder path
