@@ -5,11 +5,12 @@ Otherwise size and modified timestamps are compared.
 Filenames match is case insensitive.
 
 Parameters are:
-1 - local folder path
-2 - FTP URL with port and remote folder path
-3 - FTP login
-4 - FTP password
+* 1 - local folder path
+* 2 - FTP URL with port and remote folder path
+* 3 - FTP login
+* 4 - FTP password
+
 Example:
-c:/foldersync ftp://server.com:21/var/www/server.com/folder/ root qwerty
+*c:/foldersync ftp://server.com:21/var/www/server.com/folder/ root qwerty*
 
 If no commandline parameters then INI file will be used instead
